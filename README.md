@@ -50,20 +50,20 @@ All projects are beginner-friendly, yet progressively take you toward **intermed
 > Explore 10 Google Cloud project ideas to build hands-on skills, from beginner to advanced. Perfect for expanding your GCP knowledge and boosting your portfolio!
 
 ### 🟩 **Google Cloud Projects for Beginners**
-1. Deploy a Static Website on **Google Cloud Storage**  
-2. Set up a **Virtual Machine** with **Google Compute Engine**  
-3. Create a **Managed SQL Database** with **Cloud SQL**
+1. [Deploy a Static Website on **Google Cloud Storage**](#project-1-deploy-a-static-website-on-google-cloud-storage)  
+2. [Set up a **Virtual Machine** with **Google Compute Engine**](#project-2-setup-a-virtual-machine-with-google-compute-engine)  
+3. [Create a **Managed SQL Database** with **Cloud SQL**](#project-3-create-a-managed-sql-database-with-cloud-sql)
 
 ### 🟦 **Intermediate Google Cloud Projects**
-4. Deploy a **Containerized Application** with **Google Kubernetes Engine (GKE)**  
-5. Implement **Data Analytics** with **BigQuery**  
-6. Set up a **CI/CD Pipeline** using **Cloud Build**
+4. [Deploy a **Containerized Application** with **Google Kubernetes Engine (GKE)**](#project-4-deploy-a-containerized-application-with-google-kubernetes-engine)  
+5. [Implement **Data Analytics** with **BigQuery**](#project-5-implement-data-analytics-with-bigquery)  
+6. [Set up a **CI/CD Pipeline** using **Cloud Build**](#project-6-setup-a-cicd-pipeline-with-cloud-build)
 
 ### 🟥 **Advanced Google Cloud Projects**
-7. Build a **Machine Learning Model** with **Vertex AI**  
-8. Set up a **Serverless Data Processing Pipeline** using **Dataflow**  
-9. Implement a **Multi-Region Web Application** with **Cloud Spanner**  
-10. Secure your environment with **Identity and Access Management (IAM)**
+7. [Build a **Machine Learning Model** with **Vertex AI**](#project-7-build-a-machine-learning-model-with-vertex-ai)  
+8. [Set up a **Serverless Data Processing Pipeline** using **Dataflow**](#project-8-setup-a-serverless-data-processing-pipeline-with-dataflow)  
+9. [Implement a **Multi-Region Web Application** with **Cloud Spanner**](#project-9-implement-a-multi-region-web-application-with-cloud-spanner)  
+10. [Secure your environment with **Identity and Access Management (IAM)**](#project-10-secure-your-cloud-environment-with-identity-and-access-management-iam)
 
 ---
 
@@ -351,6 +351,137 @@ This Workshop presents a series of AWS projects designed to enhance skills at al
 Whether you're aiming to pursue a career in cloud technology or simply looking to enhance your AWS skills, the projects outlined in this article offer valuable learning opportunities.
 
 To build a strong career in AWS, start by signing up for our [**Introduction to AWS**](https://www.datacamp.com/courses/introduction-to-aws) course and then work your way up to [**getting certified**](https://www.datacamp.com/blog/aws-certifications). For a peek into the career and salary options for an [**AWS cloud practitioner role**](https://www.datacamp.com/blog/aws-cloud-practitioner-salaries), check out our detailed guide next!
+
+---
+
+## **Google Cloud Projects for Beginners**
+
+As mentioned before, starting with basic projects introducing foundational concepts and services is ideal for those new to Google Cloud. These projects are designed to help you get comfortable with the GCP environment.
+
+Let’s take a look at a few.
+
+### Project 1: Deploy a static website on Google Cloud Storage
+
+This project entails building and hosting a basic static website on Google Cloud Storage. You’ll start by creating a storage bucket, configuring it as a web host, and uploading your HTML and CSS files.
+
+Deploying a static website on GCP is an excellent introduction to the platform. You will get hands-on experience with cloud storage, managing public access controls, and handling fundamental configuration settings. 
+
+**Skills developed:** Google Cloud Storage, Website Hosting, Access Controls
+
+**Start here:** [**Host a Static Website**](https://cloud.google.com/storage/docs/hosting-static-website)
+
+### Project 2: Setup a virtual machine with Google Compute Engine
+
+In this project, you’ll learn how to create and manage a virtual machine (VM) using Google Compute Engine. The project covers:
+
+* VM setup
+    
+* SSH access
+    
+* Installing software
+    
+* Basic security configurations
+    
+
+This foundational project is perfect for learning about cloud infrastructure and VM management. 
+
+**Skills developed:** Google Compute Engine, Linux Administration, Networking Basics
+
+**Start here:** [**Create and Start a Compute Engine Instance**](https://cloud.google.com/compute/docs/instances/create-start-instance)
+
+### Project 3: Create a managed SQL database with Cloud SQL
+
+In this project, you will create a database instance, configure access permissions, and connect it to a sample application. It’s an ideal way to get started with managed database services and understand the basics of cloud-based data storage.
+
+**Skills developed:** Cloud SQL, Database Management, Connectivity and Access Control
+
+**Start here:** [**Create and Manage Databases**](https://cloud.google.com/sql/docs/sqlserver/create-manage-databases)
+
+## **Intermediate Google Cloud Projects**
+
+For those who have mastered the basics, intermediate projects offer a way to explore GCP more deeply and learn more complex solutions involving orchestration, data analysis, and machine learning.
+
+Here are a few intermediate projects you could work on to dive deeper into the GCP ecosystem.
+
+### Project 4: Deploy a containerized application with Google Kubernetes Engine
+
+In this project, you’ll containerise a simple application using Docker and deploy it on Google Kubernetes Engine (GKE). The project covers setting up a Kubernetes cluster, creating and managing pods, and deploying applications. It is a perfect project for learning about container orchestration and microservices architecture.
+
+**Skills developed:** Google Kubernetes Engine, Docker, Container Orchestration, Microservices
+
+**Start here:** [**Deploying a Containerized Web Application**](https://cloud.google.com/kubernetes-engine/docs/tutorials/hello-app)
+
+### Project 5: Implement data analytics with BigQuery
+
+This project introduces BigQuery, GCP’s fully managed, serverless data warehouse. You’ll load sample data, perform SQL-based queries, and create visualizations. This project helps you understand the basics of data analytics and how to use BigQuery for large-scale data processing.
+
+**Skills developed:** BigQuery, SQL, Data Analysis, Visualization
+
+**Start here:** [**Analyzing Electric Vehicle Charging Habits**](https://www.datacamp.com/projects/2451) or [**Exploring London’s travel Network**](https://www.datacamp.com/projects/1822)
+
+### Project 6: Setup a CI/CD pipeline with Cloud Build
+
+Here, you will learn to automate the build and deployment process using Cloud Build, GCP’s continuous integration and delivery (CI/CD) service. 
+
+Continuous Integration (CI) and Continuous Deployment (CD) are software development practices designed to automate the integration of code changes, run tests, and efficiently deploy the updated application. Originally intended for conventional software applications, these practices are now gaining traction in machine learning (ML) projects.
+
+**Skills developed:** Cloud Build, CI/CD, DevOps, Automation
+
+**Start here:** [**Cloud Build - Create a CI/CD Pipeline**](https://www.youtube.com/watch?v=L_1qbt-Iii0)
+
+## **Advanced Google Cloud Projects**
+
+If you’re experienced with GCP and want to sharpen up your skills to prepare for high-level [**certifications**](https://www.datacamp.com/blog/google-cloud-certification) or seek to deepen your expertise in specific areas, here is where you need to be. 
+
+Advanced projects are tailored for experienced users looking to tackle complex challenges and utilize a broader range of GCP services.
+
+Let’s take a look at a few advanced projects you could implement.
+
+### Project 7: Build a machine learning model with Vertex AI
+
+Vertex AI is Google’s fully managed machine learning platform. It enables users to build, deploy, and scale machine learning models. In this project, you will create a machine learning model, train it with a dataset, and deploy it as an API. 
+
+This project is perfect for exploring GCP’s machine learning capabilities and working with real-world datasets. 
+
+**Skills developed:** Vertex AI, Machine Learning, Model Deployment, APIs
+
+**Start here:** [**Vertex AI tutorial: A Comprehensive Guide For Beginners**](https://www.datacamp.com/tutorial/vertex-ai-tutorial)
+
+### Project 8: Setup a serverless data processing pipeline with Dataflow
+
+This project involves creating a data processing pipeline using Apache Beam and deploying it on Google Cloud Dataflow. You’ll learn to process and transform streaming or batch data in a serverless environment. This project is excellent for those interested in data engineering and real-time data processing. 
+
+**Skills developed:** Dataflow, Apache Beam, Data Processing, Streaming Analytics
+
+**Start he**re: [**Serverless Data Processing with Dataflow: Develop Pipelines**](https://www.cloudskillsboost.google/course_templates/229)
+
+### Project 9: Implement a multi-region web application with Cloud Spanner
+
+Develop a multi-region web application with a globally distributed database using Google Cloud Spanner. This project is ideal for learning about distributed databases and building highly available applications. 
+
+**Skills developed:** Cloud Spanner, Distributed Databases, High Availability, Web Development
+
+**Start he**re: [**Build global applications using Cloud Spanner**](https://www.youtube.com/watch?v=sqdqRcIlFpE)
+
+### Project 10: Secure your cloud environment with Identity and Access Management (IAM)
+
+In this project, you’ll design and implement a secure cloud environment using Google Cloud’s Identity and Access Management (IAM) service. This project is relevant for understanding cloud security and managing permissions effectively. 
+
+**Skills developed:** IAM, Security Best Practices, Role-Based Access Control, Cloud Security
+
+**Start her**e: [**Identity and Access Management (IAM)**](https://www.youtube.com/watch?v=aaPvEUCXvvw) 
+
+## **Tips for Working on Google Cloud Projects**
+
+Here are some of my best tips for once you decide to get hands-on and start working on a Google Cloud project.
+
+### Start small and build up
+
+Begin with smaller, manageable projects that help you build a solid foundation in GCP. As you gain confidence, gradually take on more complex projects that challenge your skills and expand your knowledge.
+
+### Leverage Google Cloud documentation and resources
+
+Make the most of Google Cloud’s extensive documentation, tutorials, and learning paths. GCP’s official resources provide valuable insights and guidance that can support your project work and help you resolve challenges efficiently.
 
 ---
 
