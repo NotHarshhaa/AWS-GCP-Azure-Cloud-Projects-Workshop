@@ -1,5 +1,7 @@
 # ☁️ **AWS | GCP | Azure — Cloud Projects Workshop**
 
+![banner](https://imgur.com/yYUNUHx.png)
+
 <p align="center">
   <img src="https://img.shields.io/badge/Cloud-AWS%20|%20GCP%20|%20Azure-blue?style=for-the-badge&logo=cloudflare&logoColor=white"/>
   <img src="https://img.shields.io/badge/Category-DevOps%20%26%20Cloud-orange?style=for-the-badge&logo=linux&logoColor=white"/>
